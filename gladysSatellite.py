@@ -1,13 +1,14 @@
+import sys
 import io
 import json
 
 """
 	Student: Jeanette Dominguez
 	Module: gladysSatellite
-	Description: This module reads satellite data from a json file
-		Opens and reads any of the four data files from disk based on the satellite name given to readSat function.
-		Reads latitude, longitude, altitude, and time information into data structures
-		Returns the data that was read to the gladysUserInterface module
+	Description: 
+	Opens and reads any of the four data files from disk based on the satellite name given to readSat function.
+	Reads latitude, longitude, altitude, and time information into data structures
+	Returns the data that was read to the gladysUserInterface module)
 
 """
 
@@ -40,7 +41,7 @@ def readSat(sat, pathToJSONDataFiles):
 
 def gpsValue(x, y, sat):
 	"""
-		document your function definition here. what does it do?
+		Reads latitude, longitude, altitude, and time information into data structures
 	"""
 
 	"""
@@ -73,6 +74,8 @@ def gpsValue(x, y, sat):
 		to understand better, open and look at the json satellite data in
 		vs code.
 	"""
+	
+
 	value = 1234
 
 	return value
